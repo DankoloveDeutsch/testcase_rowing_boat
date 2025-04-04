@@ -5,12 +5,12 @@
 
 ## Установка
 1. Клонируйте репозиторий
-'''
+```
 git clone https://github.com/DankoloveDeutsch/testcase_rowing_boat.git
-'''
+```
 
 ## Примеры использования API
-'''python
+```Python
 from rowing_boat.models import Boat, Passenger
 
 Создание лодки
@@ -27,10 +27,10 @@ boat.lower_anchor()
 
 #Гребля правым веслом, левым - "left"
 boat.row("right")
-'''
+```
 ## Тестирование
 
 Для запуска тестов выполните следующую команду в терминале:
-'''
+```
 pytest tests/
-'''
+```
